@@ -9,7 +9,7 @@ end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
 def position_taken?(arr, index)
-    if arr[index] === "" || arr[index] === " " || arr[index] === nil
+    if arr[index] === "" || arr[index] === " " || arr[index] === nil || index > 9
     return false
   elsif arr.length < index
     return 8/0
