@@ -11,8 +11,6 @@ end
 def position_taken?(arr, index)
     if arr[index] === "" || arr[index] === " " || arr[index] === nil || index > 9
     return false
-  elsif arr.length < index
-    return 8/0
   else
     return true
   end
