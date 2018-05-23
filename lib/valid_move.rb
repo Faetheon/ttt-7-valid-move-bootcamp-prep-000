@@ -11,4 +11,5 @@ end
 def position_taken?(arr, index)
     if arr[index] === "" || arr[index] === " " || arr[index] === nil
     return false
+  end
 end
